@@ -87,21 +87,26 @@ function calculate(array, methodology) {
 	
 	for (var j=0;j<temp.length-1;j+=2) {
 		
-		for (var k=1;k<temp.length;k+=2) {
+		for (var k=j+1;k<temp.length;k+=2) {
+
 			if (temp[k] == '+') {
 				f = addition
+				break
 			}
 			
 			else if (temp[k] == '-') {
 				f = subtract
+				break
 			}
 			
 			else if (temp[k] == '*') {
 				f = multiply
+				break
 			}
 			
 			else {
 				f = divide
+				break
 			}
 		}
 
