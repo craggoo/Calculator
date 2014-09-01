@@ -3,7 +3,7 @@ Calculator
 
 Calculator project on Odinproject
 
-The calculator chain as many operations in a row as you like and will 
+The calculator can chain as many operations in a row as you like and will 
 conduct them in the order given
 
 i.e. 5*6/10+3 would:
