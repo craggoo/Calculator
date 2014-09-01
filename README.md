@@ -3,10 +3,10 @@ Calculator
 
 Calculator project on Odinproject
 
-The calculator cannot do different operations at the same time.
+The calculator chain as many operations in a row as you like and will 
+conduct them in the order given
 
-For example, 5*6/7 will not output the right answer, but calculating 
-5*6 then dividing that answer by 7 will output the right answer. 
-
-You can chain together as many calculations as you want as long as
-they are all using the same operator
+i.e. 5*6/10+3 would:
+1) multiply 5*6 giving us 30
+2) divide 30/10 giving us 3
+3) and finally add 3 to 3 giving the answer of 6 that we expect
