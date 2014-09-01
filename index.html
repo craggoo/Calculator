@@ -1,0 +1,41 @@
+<html>
+<script src= "http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+
+
+<body>
+    <div class="calculator">
+      <input id="display">
+      <div class="row">
+        <div class="btn number" id="1" onclick="pushing(holding, 1)"> 1 </div>
+        <div class="btn number" id="2" onclick="pushing(holding, 2)"> 2 </div>
+        <div class="btn number" id="3" onclick="pushing(holding, 3)"> 3 </div>
+        <div class="btn number" id="0" onclick="pushing(holding, 0)"> 0 </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="row">
+        <div class="btn number" id="4" onclick="pushing(holding, 4)"> 4 </div>
+        <div class="btn number" id="5" onclick="pushing(holding, 5)"> 5 </div>
+        <div class="btn number" id="6" onclick="pushing(holding, 6)"> 6 </div>
+        <div class="btn number" id="clear" onclick="clearing(holding)"> cl </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="row">
+        <div class="btn number" id="7" onclick="pushing(holding,7)"> 7 </div>
+        <div class="btn number" id="8" onclick="pushing(holding,8)"> 8 </div>
+        <div class="btn number" id="9" onclick="pushing(holding,9)"> 9 </div>
+        <div class="btn action" id="equals" onclick="calculate(holding,methods)"> = </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="row">
+        <div class="btn number" id="add" onclick="pushing(holding,'+')"> + </div>
+        <div class="btn action" id="subtract" onclick="pushing(holding,'-')"> - </div>
+        <div class="btn action" id="multiply" onclick="pushing(holding,'*')"> * </div>
+        <div class="btn action" id="divide" onclick="pushing(holding,'/')"> / </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </body>
+<script src="calculator.js"> </script>
+</html>
